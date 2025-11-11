@@ -25,7 +25,7 @@ body, html {
 
 
 
-/* GIF 위치 예시 - 실제 빈칸 좌표에 맞게 조정 */
+
 .gif {
   position: absolute;
   z-index: 12;
@@ -37,7 +37,7 @@ body, html {
 .gif2 { left: 420mm; top: 330mm; }
 .gif3 { left: 86mm; top: 453mm; }
 .gif4 { left: 420mm; top: 650mm; }
-/* 좌표값은 실제 이미지 빈칸 위치에 따라 조정 */
+
 
 .gif img { width: 142%; height: 100%; object-fit: cover; }
 
@@ -67,7 +67,6 @@ body, html {
 
 
 
-/* 인터뷰 줄글: 클리핑(overflow hidden) 영역에 위로 이동하는 모션 */
 .interview-vertical-clip {
   position: absolute;
   left: 50%;
